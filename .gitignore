@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Generated output and logs
+data/*
+!data/.gitkeep
+
+# Secrets (never commit)
+.env
+.env.*
+*.pem
+*.key
+
+# Your own SwitchBot settings (copy the example and keep it local)
+src/skills/iphone-mirroring-operator/apps/switchbot/current-settings.md
+
+# Python
+__pycache__/
+*.pyc

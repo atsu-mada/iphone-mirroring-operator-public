@@ -1,0 +1,4 @@
+interface:
+  display_name: "iPhone Mirroring Operator"
+  short_description: "Mac の iPhone ミラーリングで iPhone のアプリを読み取り・設定する"
+  default_prompt: "Use $iphone-mirroring-operator to change a SwitchBot scene on my iPhone."
