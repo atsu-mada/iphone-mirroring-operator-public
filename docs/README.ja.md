@@ -21,13 +21,13 @@ English: [README.md](../README.md)
 リポジトリを clone して、スキルのフォルダを各クライアントのスキル置き場へリンクします。
 
 ```bash
-git clone https://github.com/atsu-mada/iphone-mirroring-operator.git
+git clone https://github.com/atsu-mada/iphone-mirroring-operator-public.git
 ```
 
 **Claude Code**
 
 ```bash
-ln -s "$PWD/iphone-mirroring-operator/src/skills/iphone-mirroring-operator" ~/.claude/skills/iphone-mirroring-operator
+ln -s "$PWD/iphone-mirroring-operator-public/src/skills/iphone-mirroring-operator" ~/.claude/skills/iphone-mirroring-operator
 ```
 
 新しいセッションで `/iphone-mirroring-operator` と呼びます。
@@ -35,7 +35,7 @@ ln -s "$PWD/iphone-mirroring-operator/src/skills/iphone-mirroring-operator" ~/.c
 **Codex**
 
 ```bash
-ln -s "$PWD/iphone-mirroring-operator/src/skills/iphone-mirroring-operator" ~/.codex/skills/iphone-mirroring-operator
+ln -s "$PWD/iphone-mirroring-operator-public/src/skills/iphone-mirroring-operator" ~/.codex/skills/iphone-mirroring-operator
 ```
 
 お使いの Codex が読むスキル置き場（`~/.codex/skills` か `~/.agents/skills`）に置いてください。新しいセッションで `$iphone-mirroring-operator` と呼びます。

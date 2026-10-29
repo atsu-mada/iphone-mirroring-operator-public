@@ -21,13 +21,13 @@ The bundled procedures cover:
 Clone the repository, then link the skill folder into your client's skills directory.
 
 ```bash
-git clone https://github.com/atsu-mada/iphone-mirroring-operator.git
+git clone https://github.com/atsu-mada/iphone-mirroring-operator-public.git
 ```
 
 **Claude Code**
 
 ```bash
-ln -s "$PWD/iphone-mirroring-operator/src/skills/iphone-mirroring-operator" ~/.claude/skills/iphone-mirroring-operator
+ln -s "$PWD/iphone-mirroring-operator-public/src/skills/iphone-mirroring-operator" ~/.claude/skills/iphone-mirroring-operator
 ```
 
 Start a new session and call it with `/iphone-mirroring-operator`.
@@ -35,7 +35,7 @@ Start a new session and call it with `/iphone-mirroring-operator`.
 **Codex**
 
 ```bash
-ln -s "$PWD/iphone-mirroring-operator/src/skills/iphone-mirroring-operator" ~/.codex/skills/iphone-mirroring-operator
+ln -s "$PWD/iphone-mirroring-operator-public/src/skills/iphone-mirroring-operator" ~/.codex/skills/iphone-mirroring-operator
 ```
 
 Use the skills folder your Codex version reads (`~/.codex/skills` or `~/.agents/skills`). Start a new session and call it with `$iphone-mirroring-operator`.
